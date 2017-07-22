@@ -80,6 +80,7 @@ nav {
     border: 1px solid #aaa;
     box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
     border-radius: 2px;
+    padding-top: 5%;
     padding-right: 30px;
     -moz-transition: padding .25s;
     -webkit-transition: padding .25s;
@@ -184,13 +185,25 @@ button.submit {
   margin-left: 2%;
   margin-right: 2%;
   padding-top: 2%;
+  margin-bottom: 2%;
   height: 70%;
   width: 100%;
-  background-color:violet;
+  background-color: white;
     overflow: auto;
 }
 
-.op_img {
+.op_tomate {
+  float: left;
+  height: 80px;
+  width: 6%;
+  background-position: center;
+  background-size: 80px 80px;
+  background-image: url("IMG/sug_tomate.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+.op_anana {
   float: left;
   height: 80px;
   width: 6%;
@@ -201,15 +214,60 @@ button.submit {
   overflow: auto;
 }
 
+.op_anchoa {
+  float: left;
+  height: 80px;
+  width: 6%;
+  background-position: center;
+  background-size: 80px 80px;
+  background-image: url("IMG/sug_anchoas.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+.op_bacon {
+  float: left;
+  height: 80px;
+  width: 6%;
+  background-position: center;
+  background-size: 80px 80px;
+  background-image: url("IMG/sug_bacon.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+.op_champi {
+  float: left;
+  height: 80px;
+  width: 6%;
+  background-position: center;
+  background-size: 80px 80px;
+  background-image: url("IMG/sug_champinon.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+.op_maiz {
+  float: left;
+  height: 80px;
+  width: 6%;
+  background-position: center;
+  background-size: 80px 80px;
+  background-image: url("IMG/sug_maiz.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
 .op_txt {
   float: left;
   position:relative;
+  margin-right: 4%;
   height: 80px;
   width: 40%;
   text-align: center;
   font-family: verdana;
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: black;
   font-size: 2rem;
   overflow: auto;
 }
