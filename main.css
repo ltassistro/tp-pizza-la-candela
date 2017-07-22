@@ -78,17 +78,6 @@ nav {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 .contacto {
     font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
@@ -99,7 +88,7 @@ nav {
 
 
 .contact_form ul {
-    width: 750px;
+    width: 100%;
     list-style-type: none;
     list-style-position: outside;
     margin: 0px;
@@ -143,7 +132,7 @@ nav {
 
 .contact_form textarea {
     padding: 8px;
-    width: 300px;
+    width: 20%%;
 }
 
 .contact_form button {
