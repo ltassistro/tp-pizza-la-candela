@@ -14,6 +14,65 @@ nav {
 }
 
 
+
+.wrapper{
+	width: 100%;
+	height: 500px;
+	background: url('IMG/textura.png') repeat;
+	
+
+
+}
+
+
+.titulo{
+	
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color: #D4AF37 ;
+	float: right;
+	margin-right: -9%;
+	margin-top: 30px;
+}
+
+
+.pizza{
+	margin-left: 10%;
+	width: 400px;
+	height: 420px;
+	margin-top: 56px;
+}
+
+
+.titulo-pizza{
+	font-size: :2em;
+	color: white;
+	font-family: Arial, Verdana, sans-serif;
+	float: right;
+	margin-top: -200px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contacto {
     font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
