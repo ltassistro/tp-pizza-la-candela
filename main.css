@@ -4,7 +4,6 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  padding-top: 80px;
 }
 
 nav {
@@ -214,7 +213,6 @@ button.submit {
   font-weight: 300;
   line-height: 80px;
   margin-right: 20px;
-  transition: 0.5s ease;
 }
 
 .navbar .nav .item a {
@@ -223,17 +221,54 @@ button.submit {
 }
 
 .navbar .logo {
-  float: left;
-  display: inline-block;
-  margin-top: 5px;
-  margin-left: 5%;
-  width: 70px;
-  height: 70px;
-  background-color: firebrick;
-  transition: 0.5s ease;
+	float: left;
+	display: inline-block;
+	 margin-top: 15px;
+    margin-left: 5%;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background: url(IMG/logo-pizza-navbar.png);
+    -webkit-background-size: cover;
 }
 
 .navbar .logo img {
   display: none;
 }
 
+
+.sugerencias {
+  float:left;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-top: 2%;
+  height: 70%;
+  width: 100%;
+  background-color:violet;
+    overflow: auto;
+}
+
+.op_img {
+  float: left;
+  height: 80px;
+  width: 6%;
+  background-position: center;
+  background-size: 80px 80px;
+  background-image: url("IMG/sug_anana.png");
+  background-repeat: no-repeat;
+  overflow: auto;
+}
+
+.op_txt {
+  float: left;
+  position:relative;
+  height: 80px;
+  width: 40%;
+  text-align: center;
+  font-family: verdana;
+  background-color: red;
+  color: white;
+  font-size: 2rem;
+  overflow: auto;
+}
