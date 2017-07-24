@@ -4,6 +4,18 @@ body {
   padding: 0;
 }
 
+
+
+.contenedor{
+	width: 100%;
+	
+	display: flex;
+	flex-flow: row wrap;
+}
+
+
+
+
 nav {
   position: fixed;
   top: 0;
@@ -15,35 +27,45 @@ nav {
 
 .wrapper{
 	width: 100%;
-	height: 500px;
+	height: auto;
 	background: url('IMG/textura.png') repeat;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	box-sizing: border-box;
+
 }
 
 
-.centrar{
+.centrar, .texto{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.titulo{
+	
+    font-family: 'Lobster', cursive;
+	font-size: 2.3em;
+	color: #D4AF37 ;
 	text-align: center;
+	
 
 
 }
-
-
 
 
 .pizza{
-	width: 50%;
-	height:55%;
+	max-width: 100%;
+	width: 60%;
+	height: auto;
 	margin-top: 30px;
+	border: 0;
 	
 	}
-
-
-
-
-#texto{
-	width: 50%;
-
-}
-
 
 
 
@@ -52,33 +74,14 @@ nav {
 	font-size: :1em;
 	color: white;
 	font-family: Arial, Verdana, sans-serif;
-	float: right;
-<<<<<<< HEAD
-	margin-top:100px;
+	text-align: center;
 
 
 
 }
 
 
-.titulo{
-	
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Lobster', cursive;
-	font-size: 2em;
-	color: #D4AF37 ;
-	position: relative;
-	top: 20px;
 
-}
-
-
-
-=======
-	margin-top: -200px;
-}
-
->>>>>>> 3eadf231596f830f7f80c32e6519077add259e2a
 .contacto {
     font: 14px/21px "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 }
@@ -359,7 +362,6 @@ button.submit {
   background-color: white;
   color: black;
   font-size: 2rem;
-<<<<<<< HEAD
   overflow: auto;
 }
 
@@ -371,9 +373,6 @@ button.submit {
     .navbar .menuhamburguesa{
 		display:inline-block;
     }
-}
-=======
-  box-sizing: border-box;
 }
 
 
@@ -395,4 +394,4 @@ button.submit {
 #cbox1 {
   size: 10rem;
 }
->>>>>>> 89f3da71eca2bd05e923d9bb4b29065cba2b30a6
+
