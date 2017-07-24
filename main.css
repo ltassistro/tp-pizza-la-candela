@@ -25,6 +25,9 @@ nav {
 
 /*--------INICIO HEADER ------------*/
 
+@media screen and (max-width: 400px) {
+    
+
 .wrapper{
 	width: 100%;
 	height: auto;
@@ -46,6 +49,9 @@ nav {
 }
 
 
+
+}
+
 .titulo{
 	
     font-family: 'Lobster', cursive;
@@ -53,8 +59,6 @@ nav {
 	color: #D4AF37 ;
 	text-align: center;
 	
-
-
 }
 
 
@@ -110,20 +114,12 @@ button.pedir {
 }
 
 
-    button.submit:hover {
+    button.pedir:hover {
         opacity: .85;
         cursor: pointer;
     }
 
-    button.submit:active {
-        border: 1px solid #20911e;
-        box-shadow: 0 0 10px 5px #356b0b inset;
-        -webkit-box-shadow: 0 0 10px 5px #356b0b inset;
-        -moz-box-shadow: 0 0 10px 5px #356b0b inset;
-        -ms-box-shadow: 0 0 10px 5px #356b0b inset;
-        -o-box-shadow: 0 0 10px 5px #356b0b inset;
-    }
-
+   
 
 
 
