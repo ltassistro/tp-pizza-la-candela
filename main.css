@@ -8,9 +8,9 @@ body {
 
 .contenedor{
 	width: 100%;
-	
 	display: flex;
 	flex-flow: row wrap;
+	box-sizing: border-box;
 }
 
 
@@ -23,7 +23,7 @@ nav {
   z-index: 10;
 }
 
-
+/*--------INICIO HEADER ------------*/
 
 .wrapper{
 	width: 100%;
@@ -32,7 +32,7 @@ nav {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	box-sizing: border-box;
+	
 
 }
 
@@ -49,7 +49,7 @@ nav {
 .titulo{
 	
     font-family: 'Lobster', cursive;
-	font-size: 2.3em;
+	font-size: 2.7em;
 	color: #D4AF37 ;
 	text-align: center;
 	
@@ -60,9 +60,9 @@ nav {
 
 .pizza{
 	max-width: 100%;
-	width: 60%;
+	width: 80%;
 	height: auto;
-	margin-top: 30px;
+	margin-top: 13px;
 	border: 0;
 	
 	}
@@ -71,15 +71,65 @@ nav {
 
 
 .titulo-pizza{
-	font-size: :1em;
-	color: white;
-	font-family: Arial, Verdana, sans-serif;
+	color: #fff;
+	font-family: 'Dosis', sans-serif;
+	font-size: 1.6em;
+	width: 100%;
+	text-transform: uppercase;
 	text-align: center;
-
-
+	line-height: 47px;
 
 }
 
+
+.destacado{
+	font-family: 'Dosis', sans-serif;
+	font-weight: bold;
+}
+
+
+
+button.pedir {
+    background-color: red;
+    border: 1px solid #509111;
+    border-radius: 5px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+     color:#fff;
+    font-weight: bold;
+    padding: 6px 20px;
+    text-align: center;
+    margin-top: 25px;
+    width: 75%;
+    height: 80px;
+    
+}
+
+
+    button.submit:hover {
+        opacity: .85;
+        cursor: pointer;
+    }
+
+    button.submit:active {
+        border: 1px solid #20911e;
+        box-shadow: 0 0 10px 5px #356b0b inset;
+        -webkit-box-shadow: 0 0 10px 5px #356b0b inset;
+        -moz-box-shadow: 0 0 10px 5px #356b0b inset;
+        -ms-box-shadow: 0 0 10px 5px #356b0b inset;
+        -o-box-shadow: 0 0 10px 5px #356b0b inset;
+    }
+
+
+
+
+
+
+/*-----INICIO FORMULARIO DE CONTACTO------*/
 
 
 .contacto {
@@ -198,6 +248,9 @@ button.submit {
         -ms-box-shadow: 0 0 10px 5px #356b0b inset;
         -o-box-shadow: 0 0 10px 5px #356b0b inset;
     }
+
+
+
 
 
 .navbar {
