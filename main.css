@@ -100,7 +100,7 @@ h1.titulo{
 
 button.pedir {
     background-color: red;
-    border: 1px solid #509111;
+    border: 1px solid red;
     border-radius: 5px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -113,7 +113,7 @@ button.pedir {
     padding: 6px 20px;
     text-align: center;
     margin-top: 25px;
-    width: 75%;
+    width: 65%;
     height: 80px;
     
 }
