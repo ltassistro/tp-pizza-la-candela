@@ -7,9 +7,8 @@ body {
 
 
 .contenedor{
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
+	display: inline-flex;
+	flex-direction: column;
 	box-sizing: border-box;
 }
 
@@ -25,37 +24,43 @@ nav {
 
 /*--------INICIO HEADER ------------*/
 
-@media screen and (max-width: 400px) {
-    
-
 .wrapper{
-	width: 100%;
-	height: auto;
 	background: url('IMG/textura.png') repeat;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	
+	flex-wrap: nowrap;
+
 
 }
 
 
-.centrar, .texto{
-	width: 100%;
+.centrar{
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	flex-wrap: nowrap;
+	flex: 1;
 	align-items: center;
+	justify-content: center;
+	
 }
 
 
+.texto{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	flex: 1;
+	align-items: center;
+	justify-content: center;
+	background:red;
+
+}
 
 
-
-.titulo{
+h1.titulo{
 	
     font-family: 'Lobster', cursive;
-	font-size: 2.7em;
+	font-size: 2.6em;
 	color: #D4AF37 ;
 	text-align: center;
 	
@@ -64,7 +69,7 @@ nav {
 
 .pizza{
 	max-width: 100%;
-	width: 80%;
+	width: 70%;
 	height: auto;
 	margin-top: 13px;
 	border: 0;
@@ -72,19 +77,16 @@ nav {
 	}
 
 
-}
-
-
-
-
 .titulo-pizza{
 	color: #fff;
 	font-family: 'Dosis', sans-serif;
-	font-size: 1.6em;
-	width: 100%;
+	font-size: 1.4em;
 	text-transform: uppercase;
+	line-height: 34px;
+	margin: 30px 20px 40px 20px;
 	text-align: center;
-	line-height: 47px;
+	
+
 
 }
 
