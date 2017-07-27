@@ -105,39 +105,26 @@
 
 		</SECTION>
 
-		<SECTION class="contacto" id="contact">
-			<form  class="contact_form" action="#" id="contact_form" >
-	        <div>
-	            <ul>
-	                <li>
-	                    <h2>Contacto</h2>
-	                    <span class="required_notification">* Datos requeridos</span>
-	                </li>
-	                <li>
-	                    <label for="name">Nombre:</label>
-	                    <input type="text" placeholder="tu nombre" required />
-	                </li>
-	                    <label for="name">Apellido:</label>
-	                    <input type="text" placeholder="tu apellido" required />
-	                </li>
-	                <li>
-	                    <label for="email">Email:</label>
-	                    <input type="email" name="email" placeholder="tu e-mail" required />
-	                    <span class="form_hint">Formato correcto: "alguien@dominio.com"</span>
-	                </li>
-	                <li>
-	                    <label for="mensaje">Mensaje:</label>
-	                    <textarea name="message" cols="40" rows="6" required></textarea>
-	                </li>
-	                <li>
-	                    <button class="submit" type="submit">Enviar mensaje</button>
-	                </li>
-	            </ul>
-	        </div>
-	    </form>
+		
+		<!--Secci{on Formulario-->
+
+		<section class="seccionContacto">
+			<form action="contacto.php" method="POST">
+				<h2>Contacto</h2>
+					<fieldset>
+						<legend>Contacto</legend>
+							<input type="text" name="nombre" placeholder="Nombre">
+							<input type="text" name="apellido" placeholder="Apellido">
+							<input type="text" name="email" placeholder="E-mail">
+							<input type="tel" name="telefono" placeholder="Telefono">
+							<textarea name="mensaje" cols="30" rows="10" placeholder="Escriba aquí su mensaje">
+							</textarea>
+					</fieldset>
+							<input type="submit" value="enviar" id="botonEnviar">
+			</form>
+		</section>
 
 
-		</SECTION>
 
 		<footer> CODERHOUSE, entrenamiento. Todos los derechos reservados 2017. </footer>
 	</div>
